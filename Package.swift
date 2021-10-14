@@ -23,7 +23,7 @@ import PackageDescription
 let package = Package(
         name: "StickyEncoding",
         products: [
-            .library(name: "StickyEncoding", type: .dynamic, targets: ["StickyEncoding"])
+            .library(name: "StickyEncoding", type: .static, targets: ["StickyEncoding"])
         ],
         targets: [
             /// Module targets
